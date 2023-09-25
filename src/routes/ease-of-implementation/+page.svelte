@@ -12,12 +12,12 @@ Recommend viewing in Visual Source Code.
 -->
 <script>
 	// package installed via pnpm
-	import { Magnifier } from 'svelte-magnifier';
+	import { Magnifier } from 'svelte-magnifier'
 </script>
 
 <Magnifier
 	className="center"
-	src="/img/DataFabricEaseofImplementation.png"
+	src="./img/DataFabricEaseofImplementation.png"
 	alt="Cartoon of a time-line to implement the many facets of a data fabric"
 	title="Cartoon of a timeline to implement the many facets of a data fabric. Not drawn to scale."
 	width="75%"
