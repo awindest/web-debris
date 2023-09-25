@@ -11,13 +11,13 @@ Yet another science experiment from Indest Labs.
 Recommend viewing in Visual Source Code.
 -->
 <script>
-	import { fade, fly } from 'svelte/transition';
-	import { onMount } from 'svelte';
-	let animateLabsLogo = false;
+	import { fade, fly } from 'svelte/transition'
+	import { onMount } from 'svelte'
+	let animateLabsLogo = false
 
 	onMount(() => {
-		animateLabsLogo = true;
-	});
+		animateLabsLogo = true
+	})
 </script>
 
 {#if animateLabsLogo}
@@ -25,7 +25,7 @@ Recommend viewing in Visual Source Code.
 		Indest Labs
 		<img
 			style="float:right;height:2.5em;filter:contrast(75%);"
-			src="/img/flask.svg"
+			src="./img/flask.svg"
 			alt="Laboratory Flask"
 		/>
 	</div>
