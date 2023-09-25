@@ -15,6 +15,10 @@ Recommend viewing in Visual Source Code.
 	import { Magnifier } from 'svelte-magnifier'
 </script>
 
+<svelte:head>
+	<title>User Interface Prototype in Clash of Clan's style</title>
+</svelte:head>
+
 <Magnifier
 	className="center"
 	src="./img/COCProcess.png"

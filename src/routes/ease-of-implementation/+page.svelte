@@ -15,6 +15,10 @@ Recommend viewing in Visual Source Code.
 	import { Magnifier } from 'svelte-magnifier'
 </script>
 
+<svelte:head>
+	<title>Ease of Implementation Cartoon</title>
+</svelte:head>
+
 <Magnifier
 	className="center"
 	src="./img/DataFabricEaseofImplementation.png"
