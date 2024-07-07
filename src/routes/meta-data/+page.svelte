@@ -23,7 +23,7 @@ Recommend viewing in Visual Source Code.
 	className="center"
 	src="./img/metadata.png"
 	alt="Cartoon of some meta-data "
-	title="Cartoon of some meta-data"
+	title="Cartoon of some meta-data 'adopted' from https://xkcd.com/688"
 	width="50%"
 	mgWidth="200"
 	mgHeight="200"
