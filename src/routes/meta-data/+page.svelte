@@ -11,15 +11,21 @@ Yet another science experiment from Indest Labs.
 Recommend viewing in Visual Source Code.
 -->
 <script>
-	import '../app.css'
-	import IndestLabs from '$lib/components/IndestLabs.svelte'
-	import Hamburger from '$lib/components/Hamburger.svelte'
-	import { navigating } from '$app/stores'
-
-	let open = false
+	// package installed via pnpm
+	import { Magnifier } from 'svelte-magnifier'
 </script>
 
-<IndestLabs />
-<Hamburger bind:open />
+<svelte:head>
+	<title>Meet some meta-data</title>
+</svelte:head>
 
-<slot />
+<Magnifier
+	className="center"
+	src="./img/metadata.png"
+	alt="Cartoon of some meta-data "
+	title="Cartoon of some meta-data"
+	width="50%"
+	mgWidth="200"
+	mgHeight="200"
+	zoomFactor="1.5"
+/>
